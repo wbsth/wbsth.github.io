@@ -7,16 +7,18 @@ on:
 jobs:
   build-deploy:
     name: Eleventy Build
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-18.04
     steps:
       - name: Git Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@master
       - name: Build
-        uses: TartanLlama/actions-eleventy@v1.3
+        uses: TartanLlama/actions-eleventy@master
         with:
           install_dependencies: true
       - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3.8.0
+        uses: peaceiris/actions-gh-pages@master
         with:
-          publish_dir: ./_site 
+          publish_dir: _site 
+          publish_branch: gh-pages
           github_token: ${{ secrets.GITHUB_TOKEN }}
+          
