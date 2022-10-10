@@ -1,0 +1,10 @@
+<ul>
+{%- for post in collections.mainSubpages -%}
+	
+		<li>
+			<a href="{{ post.url }}" class="hyperlink">{{ post.data.title }}</a>
+		</li>
+
+{%- endfor -%}
+	<li><a class="external hyperlink" href="https://github.com/wbsth">Github</a></li>
+</ul>
