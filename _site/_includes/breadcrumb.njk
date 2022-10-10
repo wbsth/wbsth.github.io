@@ -1,0 +1,9 @@
+{% set navPages = collections.all | eleventyNavigationBreadcrumb(eleventyNavigation.key, { includeSelf: true }) %}
+<div class="text-xs">
+    {%- for post in navPages -%}
+        {% if post.title != title%}
+            <a class="hyperlink" href={{ post.url }}>{{ post.title | makeUppercase }}</a><span> /<span>       
+        {% else %}{{ post.title | makeUppercase }}
+        {% endif %}
+    {%- endfor -%}
+</div>

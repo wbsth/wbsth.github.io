@@ -1,0 +1,23 @@
+{
+  "name": "micung-website",
+  "version": "1.0.0",
+  "description": "personal website",
+  "scripts": {
+    "start": "npm-run-all -p dev:*",
+    "build": "npx @11ty/eleventy && tailwindcss -i _site/css/styles.sass -o dist/css/styles.css",
+    "dev:11ty": "eleventy --serve --quiet",
+    "dev:css": "tailwindcss -i _site/css/styles.sass -o dist/css/styles.css --watch --postcss"
+  },
+  "author": "Michal Ungeheuer",
+  "homepage": "wbsth.github.io",
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.0",
+    "@11ty/eleventy-navigation": "^0.3.5",
+    "@tailwindcss/typography": "^0.5.7",
+    "autoprefixer": "^10.4.0",
+    "dayjs": "^1.10.7",
+    "npm-run-all": "^4.1.5",
+    "postcss": "^8.4.0",
+    "tailwindcss": "^3.0.12"
+  }
+}
