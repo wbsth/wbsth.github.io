@@ -9,7 +9,7 @@ eleventyNavigation:
   key: Air Data Computer
   parent: Projects
 ---
-<p>This group project involved designing and manufacturing Air Data Computer, that would be able to measure:</p>
+<p>This group project involved designing and manufacturing Air Data Computer for airplanes, that would be able to measure:</p>
 
 <ul class="list-disc">
   <li>Altitude</li>

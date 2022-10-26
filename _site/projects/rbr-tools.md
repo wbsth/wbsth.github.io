@@ -14,4 +14,6 @@ eleventyNavigation:
 <p>Made with Vue and Tailwind</p>
 
 <a class="hyperlink external" href="https://rbr-tools.vercel.app/">Live version</a>
+
+<a class="hyperlink external" href="https://github.com/wbsth/rbr-tools">Giithub repo</a>
 <img src="/images/rbrtools.png">
