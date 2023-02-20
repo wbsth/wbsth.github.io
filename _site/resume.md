@@ -44,6 +44,9 @@ eleventyNavigation:
     <code>Webdev</code> : Adequate knowledge of HTML, CSS and JS; Basics of Vue3 framework;
   </li>
   <li>
+    <code>DB</code> : Familiar with relational databases, T-SQL
+  </li>
+  <li>
     <code>Data science</code> : Solid foundations using Python + numpy, panda, matplotlib. Basics of matlab + simulink. Capable of writing LaTeX documents
   </li>
   <li>
