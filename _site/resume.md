@@ -16,7 +16,7 @@ eleventyNavigation:
 <span class="italic font-light"> • Full Time </span>
 <blockquote>
   <div class="ml-4 text-justify">
-    Was responsible for developing new applications. Main projects I’ve been involved in:
+    Was responsible for developing new applications, as well as maintaining existing ones. Main projects I’ve been involved in:
     <ul class="list-disc">
       <li>Complex business process management desktop application for aviation industry customer. This also involved creating WebApi that application was connected to. Used technologies: C#, WPF, Entity Framework, SignalR, ASP.Net WebApi</li>
       <li>Web Single Page Application that displayed air sensor data received from embedded devices network. Users were able to view live data, as well as historic ones, using suitable graphs. Project also involved creating backend that was processing data received from devices, as well as serving data to front-end app. Used technologies: HTML, JS, Vue3, Tailwind, ChartJS</li>
