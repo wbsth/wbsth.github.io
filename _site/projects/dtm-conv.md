@@ -2,8 +2,8 @@
 title: Digital Terrain Model converter
 layout: subpage
 tags: ['page', 'project']
-modified: 2022-01-09 00:00:00
-order: 3
+modified: 2023-03-12 00:00:00
+order: 5
 technologies: ['python', 'data science']
 eleventyNavigation:
   key: Digital Terrain Model converter
@@ -15,7 +15,7 @@ eleventyNavigation:
 
   <p>It was achieved by approximating terrain topography with simple 3D figures.</p>
 
-  Main goals:
+  <h2>Main goals:</h2>
   <ul class="list-disc">
     <li>reduce the size of the output file</li>
     <li>    preserve details of terrain data</li>
