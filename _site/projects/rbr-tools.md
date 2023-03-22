@@ -14,6 +14,8 @@ eleventyNavigation:
 <h2>Vue3 Web App</h2>
 Web app that contains various tools for Richard Burns Rally simulator.</> 
 
+<img src="/images/rbrtools2.png">
+
 <p class="mb-2">Main feature is online telemetry analyzer that allows users to visualize and compare data coming from sim.</p>
 
 <video controls>
